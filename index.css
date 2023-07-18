@@ -1,0 +1,53 @@
+body{
+  background-color: #666;
+}
+.custom{
+  width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccd;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.pic{
+  width: 700px;
+}
+.pic>img{
+  width: 100%;
+}
+
+.selector{
+  width: 400px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.selector>p{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.selector>p>select{
+  width: 200px;
+  font-size: 30px;
+  line-height: 50px;
+}
+.button{
+  width: 400px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.button>p{
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.button>p>label{
+  width: 130px;
+  display: inline-block;
+}
+.button>p>button{
+  width: 70px;
+  font-size: 18px;
+  height: 30px;
+  background-color: #fff;
+  border: 2px solid #ccd;
+}
